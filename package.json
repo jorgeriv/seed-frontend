@@ -12,5 +12,8 @@
     "angular"
   ],
   "author": "Jorge Rivera",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "serve-static": "^1.10.2"
+  }
 }
