@@ -14,13 +14,12 @@
   <script src="vendor/angular-route/angular-route.js" charset="utf-8"></script>
 
   <!-- App Scripts -->
-  <script src="app/app.js" charset="utf-8"></script>
-  <script src="app/mainCtrl.js" charset="utf-8"></script>
-  <script src="app/router.js" charset="utf-8"></script>
-
+  <script src="app.js" charset="utf-8"></script>
+  <script src="router.js" charset="utf-8"></script>
+  <script src="components/home/homeCtrl.js" charset="utf-8"></script>
+  <base href="/"></base>
 </head>
-<body ng-app="myApp" ng-controller="mainCtrl">
-  <h1>{{title}}</h1>
+<body ng-app="myApp">
 <div ng-view>
 </div>
 
