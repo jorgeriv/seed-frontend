@@ -1,6 +1,6 @@
 {
   "name": "seed-frontend",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Seed project for angular application",
   "main": "server.js",
   "scripts": {
