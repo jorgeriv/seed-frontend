@@ -1,5 +1,5 @@
 'use strict';
-function router(){
+function router($routeProvider, $locationProvider){
   $routeProvider
   .when('/home', {
     templateUrl: 'app/components/home/template.html',
@@ -8,10 +8,9 @@ function router(){
   .otherwise({
     redirectTo: '/home'
   });
-  /*
+
   $locationProvider
   .html5Mode(true);
-  */
 }
 angular('MyApp')
   .config(['$routeProvider', '$locationProvider', router]);
