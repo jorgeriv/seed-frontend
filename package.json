@@ -1,0 +1,16 @@
+{
+  "name": "seed-frontend",
+  "version": "0.0.1",
+  "description": "Seed project for angular application",
+  "main": "server.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "seed",
+    "frontend",
+    "angular"
+  ],
+  "author": "Jorge Rivera",
+  "license": "GPL-3.0"
+}

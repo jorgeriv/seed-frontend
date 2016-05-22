@@ -1,0 +1,22 @@
+{
+  "name": "seed-frontend",
+  "description": "Seed project for angular application",
+  "main": "server.js",
+  "authors": [
+    "Jorge Rivera"
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "seed",
+    "frontend",
+    "angular"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
