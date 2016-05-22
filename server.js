@@ -6,7 +6,7 @@ const PORT = 8080;
 
 
 // Serve up public/ftp folder
-let serve = serveStatic('public/ftp', {'index': ['index.html', 'index.htm']});
+let serve = serveStatic('app', {'index': ['index.html', 'index.htm']});
 
 // Create server
 let server = http.createServer(function(req, res){
