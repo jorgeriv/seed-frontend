@@ -16,5 +16,8 @@
   "dependencies": {
     "finalhandler": "^0.4.1",
     "serve-static": "^1.10.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }
