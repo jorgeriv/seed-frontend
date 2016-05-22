@@ -18,6 +18,7 @@
     "serve-static": "^1.10.2"
   },
   "devDependencies": {
+    "browser-sync": "^2.12.8",
     "gulp": "^3.9.1"
   }
 }
