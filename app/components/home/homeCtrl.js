@@ -1,7 +1,7 @@
 (function(){ 'use strict';
-function ctrl(){
-
+function ctrl($scope){
+  $scope.title = 'My app';
 }
-  angular.module('MyApp')
-    .controller([ctrl]);
+  angular.module('myApp')
+    .controller('homeController',['$scope', ctrl]);
 }());
